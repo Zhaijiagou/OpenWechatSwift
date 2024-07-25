@@ -4,18 +4,18 @@
 import PackageDescription
 
 let package = Package(
-  name: "WechatOpenSDK",
+  name: "OpenWechatSwift",
   platforms: [.iOS(.v13)],
   products: [
     // Products define the executables and libraries a package produces, making them visible to other packages.
     .library(
-      name: "WechatOpenSDK",
-      targets: ["WechatOpenSDK"]
+      name: "OpenWechatSwift",
+      targets: ["OpenWechatSwift"]
     ),
   ],
   targets: [
     .binaryTarget(
-      name: "WechatOpenSDK",
+      name: "OpenWechatSwift",
       path: "./Sources/WechatOpenSDK-XCFramework.xcframework")
   ]
 )
